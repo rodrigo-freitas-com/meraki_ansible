@@ -13,7 +13,7 @@ meraki-ansible/
 ├── vars/
 │   ├── meraki_config.yml         # ← Edite o arquivo de configurações
 │   └── vault.yml                 # ← Chave API (criptografar com ansible-vault)
-|   └── cliente_abc.yml           # ← Apenas um modelo 
+|   └── cliente_abc.yml           # ← Apenas um modelo (guia)
 └── roles/
     └── meraki_provisioning/
         ├── defaults/main.yml
@@ -72,7 +72,7 @@ ansible-playbook meraki_provision.yml \
   -e @vars/meraki_config.yml
 
 
-# Arquivo de vars customizado
+# Arquivo de vars customizado (modelo)
 ansible-playbook meraki_provision.yml \
   -e meraki_api_key=$MERAKI_API_KEY \
   -e meraki_vars_file=vars/cliente_abc.yml
@@ -85,7 +85,7 @@ ansible-playbook meraki_provision.yml \
   --tags networks
 
 
-# Executar apenas configuração de APs
+# Executar apenas configuração de AP's
 ansible-playbook meraki_provision.yml \
   -e meraki_api_key=$MERAKI_API_KEY \
   -e @vars/meraki_config.yml \
