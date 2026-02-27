@@ -7,7 +7,7 @@ Automação completa de provisionamento Cisco Meraki via Ansible by Freitas
 ```
 meraki-ansible/
 ├── ansible.cfg
-├── meraki_provision.yml          # Playbook principal
+├── meraki_provision.yml          # ← Playbook principal
 ├── inventory/
 │   └── hosts.ini
 ├── vars/
