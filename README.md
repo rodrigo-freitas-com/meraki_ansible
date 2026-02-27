@@ -11,9 +11,9 @@ meraki-ansible/
 ├── inventory/
 │   └── hosts.ini
 ├── vars/
-│   ├── meraki_config.yml         # ← Edite aqui sua configuração
+│   ├── meraki_config.yml         # ← Edite o arquivo de configurações
 │   └── vault.yml                 # ← Chave API (criptografar com ansible-vault)
-|   └── cliente_abc.yml           # ← Apenas um Modelo 
+|   └── cliente_abc.yml           # ← Apenas um modelo 
 └── roles/
     └── meraki_provisioning/
         ├── defaults/main.yml
