@@ -40,7 +40,7 @@ meraki_config:
           psk: "Senha-SSID"
       access_points:
         - name: "AP-XPTO-01"
-          serial: "XXXX-XXXX-XXXX" #cloudID
+          serial: "XXXX-XXXX-XXXX" #CloudId
 ```
 
 ### 2. Configure as credenciais
