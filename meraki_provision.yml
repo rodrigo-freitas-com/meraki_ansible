@@ -3,7 +3,8 @@
 # Playbook: Meraki Dashboard Provisioning
 # Descrição: Cria organização, networks e APs no Cisco Meraki Dashboard
 # Uso: ansible-playbook meraki_provision.yml -e @vars/my_config.yml
-# By Freitas =============================================================================
+# By Freitas 
+# =============================================================================
 
 - name: Meraki Dashboard Provisioning
   hosts: localhost
@@ -40,7 +41,7 @@
       ansible.builtin.debug:
         msg:
           - "============================================"
-          - "PROVISIONAMENTO CONCLUÍDO"
+          - "    PROVISIONAMENTO CONCLUÍDO"
           - "============================================"
           - "Organização ID: {{ org_id }}"
           - "Networks criadas: {{ created_networks | length }}"
