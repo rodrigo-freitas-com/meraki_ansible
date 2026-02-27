@@ -1,9 +1,9 @@
 ---
 # =============================================================================
-# Variáveis de Configuração Meraki
-# Uso: ansible-playbook meraki_provision.yml -e @vars/meraki_config.yml
+#   Variáveis de Configuração Meraki
+#   Uso: ansible-playbook meraki_provision.yml -e @vars/meraki_config.yml
 #
-# ATENÇÃO: meraki_api_key deve vir do Vault ou variável de ambiente:
+#   ATENÇÃO: meraki_api_key deve vir do Vault ou variável de ambiente:
 #   export MERAKI_API_KEY="sua_chave_aqui"
 #   ansible-playbook meraki_provision.yml -e meraki_api_key=$MERAKI_API_KEY -e @vars/meraki_config.yml
 # =============================================================================
@@ -24,6 +24,7 @@ meraki_config:
   # -------------------------------------------------------------------------
   # NETWORKS
   # -------------------------------------------------------------------------
+  
   networks:
 
     - name: "Nome_da_Network"
