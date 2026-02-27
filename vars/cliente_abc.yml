@@ -61,7 +61,7 @@ meraki_config:
 
       access_points:
         - name: "AP-ABC-SEDE-01"
-          serial: "XXXX-XXXX-0001"
+          serial: "XXXX-XXXX-0001" #CloudId
           tags: ["sede", "andar1"]
           address: "Av. Paulista, 1000, São Paulo, SP"
           lat: -23.5613
@@ -69,7 +69,7 @@ meraki_config:
           notes: "AP térreo - recepção"
 
         - name: "AP-ABC-SEDE-02"
-          serial: "XXXX-XXXX-0002"
+          serial: "XXXX-XXXX-0002" #CloudId
           tags: ["sede", "andar2"]
           notes: "AP andar 2 - escritório"
 
@@ -151,7 +151,7 @@ meraki_config:
 
       access_points:
         - name: "AP-ABC-BH-01"
-          serial: "ZZZZ-ZZZZ-0001"
+          serial: "ZZZZ-ZZZZ-0001" #CloudId
           tags: ["filial_bh", "andar1"]
           address: "Av. Afonso Pena, 1000, Belo Horizonte, MG"
           lat: -19.9191
