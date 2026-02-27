@@ -12,7 +12,8 @@ meraki-ansible/
 │   └── hosts.ini
 ├── vars/
 │   ├── meraki_config.yml         # ← Edite aqui sua configuração
-│   └── vault.yml                 # Chave API (criptografar com ansible-vault)
+│   └── vault.yml                 # ← Chave API (criptografar com ansible-vault)
+|   └── cliente_abc.yml           # ← Apenas um Modelo 
 └── roles/
     └── meraki_provisioning/
         ├── defaults/main.yml
