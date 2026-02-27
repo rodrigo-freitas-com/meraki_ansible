@@ -12,7 +12,7 @@ meraki-ansible/
 │   └── hosts.ini
 ├── vars/
 │   ├── meraki_config.yml         # ← Edite aqui sua configuração
-│   └── vault.yml                 # Credenciais (criptografar com ansible-vault)
+│   └── vault.yml                 # Chave API (criptografar com ansible-vault)
 └── roles/
     └── meraki_provisioning/
         ├── defaults/main.yml
@@ -46,7 +46,7 @@ meraki_config:
 
 **Opção A - Variável de ambiente:**
 ```bash
-export MERAKI_API_KEY="sua_chave_aqui"
+export MERAKI_API_KEY="Chave_API"
 ```
 
 **Opção B - Ansible Vault (recomendado):**
