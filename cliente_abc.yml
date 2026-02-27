@@ -1,7 +1,7 @@
 ---
 # ===========================================================
-#Exemplo ===========================================================
-#
+# Exemplo 
+# ===========================================================
 
 meraki_config:
 
@@ -9,6 +9,7 @@ meraki_config:
   #
   # ORGANIZAÇÃO
   # ---------------------------------------------------------
+  
   organization:
     name: "ABC Empresa LTDA"
     timezone: "America/Sao_Paulo"
@@ -18,6 +19,7 @@ meraki_config:
   #
   # NETWORKS
   # ---------------------------------------------------------
+  
   networks:
 
     # ------ SEDE ------
@@ -77,6 +79,7 @@ meraki_config:
           serial: "XXXX-XXXX-0003"
           tags: ["sede", "andar3"]
           notes: "AP andar 3 - diretoria"
+          
 
     # ------ FILIAL 1 ------
     - name: "ABC-FILIAL-RJ"
@@ -119,6 +122,7 @@ meraki_config:
           serial: "YYYY-YYYY-0002"
           tags: ["filial_rj", "andar2"]
           notes: "AP andar 2"
+
 
     # ------ FILIAL 2 ------
     - name: "ABC-FILIAL-BH"
