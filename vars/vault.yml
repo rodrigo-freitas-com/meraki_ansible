@@ -1,0 +1,7 @@
+---
+# =============================================================================
+# Vault - Credenciais sensíveis
+# Encriptar com: ansible-vault encrypt vars/vault.yml
+# =============================================================================
+
+vault_meraki_api_key: "SUBSTITUA_PELA_SUA_CHAVE_MERAKI"
