@@ -63,12 +63,12 @@ ansible-playbook meraki_provision.yml \
   -e @vars/vault.yml \
   -e @vars/meraki_config.yml \
   --ask-vault-pass
-  
+
+
 # Com variável de ambiente
 ansible-playbook meraki_provision.yml \
   -e meraki_api_key=$MERAKI_API_KEY \
   -e @vars/meraki_config.yml
-
 
 
 # Arquivo de vars customizado
@@ -76,11 +76,13 @@ ansible-playbook meraki_provision.yml \
   -e meraki_api_key=$MERAKI_API_KEY \
   -e meraki_vars_file=vars/cliente_abc.yml
 
+
 # Executar apenas criação de networks
 ansible-playbook meraki_provision.yml \
   -e meraki_api_key=$MERAKI_API_KEY \
   -e @vars/meraki_config.yml \
   --tags networks
+
 
 # Executar apenas configuração de APs
 ansible-playbook meraki_provision.yml \
